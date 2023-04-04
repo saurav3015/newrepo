@@ -21,6 +21,7 @@ int main()
    printf("%d" ,biny[counter]);
       counter--;
  }
+   printf("radhe radhe\n");
  
  return 0;
  }
