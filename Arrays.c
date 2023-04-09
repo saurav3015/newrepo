@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+
   int main () {
       int  marks[3];
 
@@ -16,8 +16,8 @@
 
       return 0;
 
-  }*/
-  /*
+  }
+  
    int main () {
        float price [3];
 
@@ -31,8 +31,8 @@
        printf("total price 3  : %f\n",price[2]+(0.18+price[2])); 
 
        return 0;
-   }*/
-   /*
+   }
+   
   int main () {
     int floor = 5;
     int *room = &floor;
@@ -47,8 +47,8 @@
     room;
 
     return 0;
-  }*/
-/*
+  }
+
   int main () {
     float price = 100.00;
     float *rate = &price;
@@ -64,8 +64,8 @@
 
 
     return 0;
-  }*/
-/*
+  }
+
   int main () {
     char star = '*';
     char * add = &star;
@@ -79,25 +79,25 @@
      printf("%u\n",add);
     add;
     return 0;
-  }*/
-/*
+  }
+
   int main (){
     int aadhar [5];
 
-    // input 
+    input 
     int *card = &aadhar[0];
     for(int i = 0;i<5;i++){
         printf("%d index is : ",i);
         scanf("%d",(card+i));
     }
-    //output 
+    output 
     for(int i =  0;i <5; i++){
         printf("%d index  = %d\n",i,aadhar[i]);//printf("%d index = %d\n",i,*(card+i));
     }
 
     return 0;
-  }*/
-  /*
+  }
+  
   void numbers(int arr[], int n );
 
   int main () {
@@ -111,8 +111,8 @@
     }
     printf("\n");
   }
-  */
-   /*
+  
+   
    int main () {
     int marks[2][3];
 
@@ -126,8 +126,8 @@
     printf("%d\n",marks[1][2]);
 
     return 0;
-   }*/
-/*
+   }
+
    int odd(int arr[],int n);
    
    int main () {
@@ -145,8 +145,8 @@
         }
     }
     return count;
-   }*/
-/*
+   }
+
    void revres(int arr[],int n );
    void printarr(int arr[],int n);
 
@@ -171,8 +171,8 @@
         arr[i] = secondval;
         arr[n-i-1]= firstval;
       }
-   }*/
-/*
+   }
+
    int main () {
     int n;
     printf(" enter n(n>2) :");
@@ -190,8 +190,8 @@
     printf("\n");
 
     return 0;
-   }*/
-/*
+   }
+
   void stortable(int arr[][10],int row, int  colum,int   number);
 
   int main () {
@@ -216,7 +216,7 @@
     for(int i =0;i<=m;i++){
       arr[n][i] =  number * (i +1);
     }
-  }*/
+  }
   
 
 
